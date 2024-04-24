@@ -15,7 +15,6 @@
 		CF756B122BD868B800045021 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF756B112BD868B800045021 /* QuizUITests.swift */; };
 		CF756B142BD868B800045021 /* QuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF756B132BD868B800045021 /* QuizUITestsLaunchTests.swift */; };
 		CF756B252BD868FC00045021 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF756B242BD868FC00045021 /* QuizModel.swift */; };
-		CF756B2A2BD8692700045021 /* Questions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF756B282BD8692700045021 /* Questions.xcdatamodeld */; };
 		CF756B2C2BD8693700045021 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF756B2B2BD8693700045021 /* DataController.swift */; };
 		CF756B2E2BD86AAA00045021 /* MCQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF756B2D2BD86AAA00045021 /* MCQuestionView.swift */; };
 		CF756B302BD86ABB00045021 /* AddMCQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF756B2F2BD86ABB00045021 /* AddMCQuestionView.swift */; };
@@ -26,6 +25,7 @@
 		CF756B3A2BD86AF900045021 /* FBQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF756B392BD86AF900045021 /* FBQuestionView.swift */; };
 		CF756B3C2BD86B0200045021 /* AddFBQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF756B3B2BD86B0200045021 /* AddFBQuestionView.swift */; };
 		CF756B3E2BD86B0F00045021 /* EditFBQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF756B3D2BD86B0F00045021 /* EditFBQuestionView.swift */; };
+		CF7FB6572BD8DD0E00B5A357 /* Questions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF756B282BD8692700045021 /* Questions.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -339,12 +339,12 @@
 				CF756B3A2BD86AF900045021 /* FBQuestionView.swift in Sources */,
 				CF756B2E2BD86AAA00045021 /* MCQuestionView.swift in Sources */,
 				CF756B342BD86AD300045021 /* TFQuestionView.swift in Sources */,
-				CF756B2A2BD8692700045021 /* Questions.xcdatamodeld in Sources */,
 				CF756B382BD86AF000045021 /* EditTFQuestionView.swift in Sources */,
 				CF756B322BD86AC500045021 /* EditMCQuestionView.swift in Sources */,
 				CF756B3C2BD86B0200045021 /* AddFBQuestionView.swift in Sources */,
 				CF756B362BD86AE800045021 /* AddTFQuestionView.swift in Sources */,
 				CF756B252BD868FC00045021 /* QuizModel.swift in Sources */,
+				CF7FB6572BD8DD0E00B5A357 /* Questions.xcdatamodeld in Sources */,
 				CF756B302BD86ABB00045021 /* AddMCQuestionView.swift in Sources */,
 				CF756AF72BD868B700045021 /* QuizApp.swift in Sources */,
 			);
