@@ -37,6 +37,7 @@ struct TFQuestionView: View {
     .onAppear {
       showAnswer = false
       questions = QuizModel.shared.getTFQuestions(data)
+      qIndex = 0
     }
     .toolbar {
       // goes back to previous screen

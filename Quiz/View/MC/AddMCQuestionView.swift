@@ -84,23 +84,37 @@ struct TextFieldView: View {
   
   var body: some View {
     HStack {
-      TextField(title, text: $text)
-      
       // toggle button to choose
       // which choice is right answer
-      Toggle(isOn: $isOn) {}
-        .toggleStyle(.switch)
-        .onAppear {
-          isOn = answerIndex == answer
+      CheckboxBtn(isOn: $isOn)
+      .onAppear {
+        isOn = answerIndex == answer
+      }
+      .onChange(of: isOn, { _, newVal in
+        if newVal {
+          answer = answerIndex
         }
-        .onChange(of: isOn, { _, newVal in
-          if newVal {
-            answer = answerIndex
-          }
-        })
-        .onChange(of: answer) { _, _ in
-          isOn = answerIndex == answer
-        }
+      })
+      .onChange(of: answer) { _, _ in
+        isOn = answerIndex == answer
+      }
+      
+      TextField(title, text: $text)
+    }
+  }
+}
+
+struct CheckboxBtn: View {
+  @Binding var isOn: Bool
+  
+  var body: some View {
+    Button {
+      isOn.toggle()
+    } label: {
+      HStack {
+        Image(systemName: isOn ? "checkmark.square.fill" : "square")
+          .foregroundStyle(isOn ? Color.blue : Color.gray)
+      }
     }
   }
 }

@@ -37,4 +37,3 @@ class QuizModel {
     return li.shuffled()
   }
 }
-

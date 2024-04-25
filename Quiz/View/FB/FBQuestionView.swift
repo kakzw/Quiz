@@ -74,6 +74,7 @@ struct FBQuestionView: View {
     .onAppear {
       showAnswer = false
       questions = QuizModel.shared.getFBQuestions(data)
+      qIndex = 0
     }
     .toolbar {
       // goes back to previous screen

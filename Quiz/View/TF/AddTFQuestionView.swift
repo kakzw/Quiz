@@ -65,23 +65,22 @@ struct TextView: View {
   
   var body: some View {
     HStack {
-      Text(text)
-      
       // toggle button to choose
       // which choice is right answer
-      Toggle(isOn: $isOn) {}
-        .toggleStyle(.switch)
-        .onAppear {
-          isOn = isAnswer == answer
+      CheckboxBtn(isOn: $isOn)
+      .onAppear {
+        isOn = isAnswer == answer
+      }
+      .onChange(of: isOn, { _, newVal in
+        if newVal {
+          answer = isAnswer
         }
-        .onChange(of: isOn, { _, newVal in
-          if newVal {
-            answer = isAnswer
-          }
-        })
-        .onChange(of: answer) { _, _ in
-          isOn = isAnswer == answer
-        }
+      })
+      .onChange(of: answer) { _, _ in
+        isOn = isAnswer == answer
+      }
+      
+      Text(text)
     }
   }
 }

@@ -35,6 +35,7 @@ struct MCQuestionView: View {
     .onAppear {
       showAnswer = false
       questions = QuizModel.shared.getMCQuestions(data)
+      qIndex = 0
     }
     .toolbar {
       // goes back to previous screen
