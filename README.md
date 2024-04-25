@@ -11,12 +11,12 @@ This is a SwiftUI quiz application that allows users to create, edit, and answer
 
 ## Screenshots
 
-![1](https://github.com/k-akzw/Quiz/assets/114431999/47eb473c-18d5-4f8a-b0d7-521e173f1ed8)
-![2](https://github.com/k-akzw/Quiz/assets/114431999/51cf1396-ce19-4fed-99e5-a8bb41020f84)
-![3](https://github.com/k-akzw/Quiz/assets/114431999/00bdc1d4-10ed-443f-ae7f-0af40fa631e1)
-![4](https://github.com/k-akzw/Quiz/assets/114431999/b6a0725c-2bfa-4b30-a866-e0700eb573d7)
-![5](https://github.com/k-akzw/Quiz/assets/114431999/008bf459-12f2-4288-a17f-5e424893eebe)
-![6](https://github.com/k-akzw/Quiz/assets/114431999/1a3a766c-b3df-450e-9f57-c686c172241f)
+<img src="https://github.com/kakzw/PasswordManager/assets/167830553/55c4af21-f6f1-4ae5-bce3-ad0e95165e11" width="300">
+<img src="https://github.com/kakzw/PasswordManager/assets/167830553/d72d4a38-f7b6-4491-9c33-8f317f6db709" width="300">
+<img src="https://github.com/kakzw/PasswordManager/assets/167830553/8dd83125-de33-4ea3-b4b3-b347b42cca2a" width="300">
+<img src="https://github.com/kakzw/PasswordManager/assets/167830553/8b8bbadb-3bd6-48c8-a024-65e5276f34d0" width="300">
+<img src="https://github.com/kakzw/PasswordManager/assets/167830553/1afc94ba-ce2d-4f41-83ef-778bb98a792b" width="300">
+<img src="https://github.com/kakzw/PasswordManager/assets/167830553/84ec3d58-9b86-459b-9a27-f38180332f7b" width="300">
 
 ## Installation
 
