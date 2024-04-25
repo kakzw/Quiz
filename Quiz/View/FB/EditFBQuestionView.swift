@@ -53,8 +53,7 @@ struct EditFBQuestionView: View {
         }
       }
     }
-    .padding()
-    .navigationTitle("Add Question")
+    .navigationTitle("Edit Question")
     .navigationBarTitleDisplayMode(.inline)
     .toolbarBackground(.orange, for: .navigationBar)
     .toolbarBackground(.visible, for: .navigationBar)
