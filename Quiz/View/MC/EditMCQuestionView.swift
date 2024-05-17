@@ -79,13 +79,13 @@ struct EditMCQuestionView: View {
     }
     .navigationTitle("Edit Question")
     .navigationBarTitleDisplayMode(.inline)
-    .toolbarBackground(.orange, for: .navigationBar)
+    .toolbarBackground(.theme, for: .navigationBar)
     .toolbarBackground(.visible, for: .navigationBar)
     .toolbarColorScheme(.dark, for: .navigationBar)
     .navigationBarBackButtonHidden()
   }
 }
 
-//#Preview {
-//    EditQuestionView()
-//}
+#Preview {
+  EditMCQuestionView()
+}

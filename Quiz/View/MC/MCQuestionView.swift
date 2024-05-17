@@ -51,11 +51,13 @@ struct MCQuestionView: View {
       }
       
       // edits current question
-      ToolbarItem(placement: .navigationBarTrailing) {
-        Button {
-          showEditView = true
-        } label: {
-          Text("Edit")
+      if !questions.isEmpty {
+        ToolbarItem(placement: .navigationBarTrailing) {
+          Button {
+            showEditView = true
+          } label: {
+            Text("Edit")
+          }
         }
       }
       
@@ -71,7 +73,7 @@ struct MCQuestionView: View {
     .padding()
     .navigationTitle("MC Question \(qIndex + 1)")
     .navigationBarTitleDisplayMode(.inline)
-    .toolbarBackground(.orange, for: .navigationBar)
+    .toolbarBackground(.theme, for: .navigationBar)
     .toolbarBackground(.visible, for: .navigationBar)
     .toolbarColorScheme(.dark, for: .navigationBar)
     .navigationBarBackButtonHidden()
