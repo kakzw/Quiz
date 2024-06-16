@@ -40,7 +40,7 @@ struct ContentView: View {
       .padding()
       .navigationTitle("Quiz")
       .navigationBarTitleDisplayMode(.inline)
-      .toolbarBackground(.orange, for: .navigationBar)
+      .toolbarBackground(.theme, for: .navigationBar)
       .toolbarBackground(.visible, for: .navigationBar)
       .toolbarColorScheme(.dark, for: .navigationBar)
     }

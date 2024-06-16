@@ -53,11 +53,13 @@ struct TFQuestionView: View {
       }
       
       // edits current question
-      ToolbarItem(placement: .navigationBarTrailing) {
-        Button {
-          showEditView.toggle()
-        } label: {
-          Text("Edit")
+      if !questions.isEmpty {
+        ToolbarItem(placement: .navigationBarTrailing) {
+          Button {
+            showEditView.toggle()
+          } label: {
+            Text("Edit")
+          }
         }
       }
       
@@ -73,7 +75,7 @@ struct TFQuestionView: View {
     .padding()
     .navigationTitle("T/F Question \(qIndex + 1)")
     .navigationBarTitleDisplayMode(.inline)
-    .toolbarBackground(.orange, for: .navigationBar)
+    .toolbarBackground(.theme, for: .navigationBar)
     .toolbarBackground(.visible, for: .navigationBar)
     .toolbarColorScheme(.dark, for: .navigationBar)
     .navigationBarBackButtonHidden()
